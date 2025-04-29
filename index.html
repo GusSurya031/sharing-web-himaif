@@ -1,12 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bisik #4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pengajuan Peminjaman Inventaris</title>
+    <meta name="description" content="Sistem Pengajuan Peminjaman Inventaris adalah sebuah sistem yang dikembangkan oleh mahasiswa informatika untuk meningkatkan kinerja blablabla dan mempermudah pengelolaan inventaris.">
+    <meta name="author" content="">   
+    <style>
+        .navbar {
+            display: flex;
+            justify-content:space-between;
+        }
+
+        .navigasi-list {
+            display: block;
+        }
+        .navbar figure {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo {
+            width: 96px;
+        }
+        /* 
+            styling font size, type 
+            box sizing(margin padding, border)
+            background color 
+            flex, grid, media queries 
+
+            tailwind atau bootstrap
+        */
+
+        @media screen and (max-width: 480px) {
+            .navigasi-list {
+                display: none;
+            }
+        }
+    </style> 
 </head>
 <body>
-  <h1>Bilik Diskusi Akademis</h1>
-  <p>Pembicara: Kak Mahen</p>
+    <!-- Bagian Header Sebagai Navigasi -->
+    <header>
+        <nav class="navbar">
+            <figure>
+                <img src="https://placehold.co/600x400" alt=""  class="logo">
+                <figcaption>ini logo</figcaption>
+            </figure>
+            <ul class="navigasi-list">
+                <li>Home</li>
+                <li>Status</li>
+                <li>Tata Cara</li>
+                <li>Kontak</li>
+            </ul>
+            <div>
+                <a href="">Login</a>
+                <a href="">Register</a>
+            </div>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Hero Section -->
+        <section>
+            <h1>Selamat Datang di website Peminjaman inventars</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi a numquam perferendis maxime cumque quidem deserunt aperiam minima distinctio?
+            </p>
+        </section>
+
+        <!-- Section Divisi -->
+        <section>
+            <article>
+                <h3>News</h3>
+                <div class="card">
+                    <h4>Judul Berita</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+                <div>
+                    <h4>Judul Berita</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+                <div>                    
+                    <h4>Judul Berita</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.</p>
+                </div>
+            </article>
+            <article>
+                <h3>Event</h3>
+                <p>Isi dari event</p>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Pengumuman Status Pengajuan</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti obcaecati quia molestias voluptate perferendis sunt magnam cumque. Nobis sit et reiciendis accusamus omnis nemo doloremque necessitatibus, enim, debitis iure a.</p>
+        </aside>
+    </main>
+    <!-- Ini Footer -->
+    <footer>
+        <p>&copy; 2023 Sistem Pengajuan Peminjaman Inventaris. All rights reserved.</p>
+    </footer>
 </body>
 </html>
