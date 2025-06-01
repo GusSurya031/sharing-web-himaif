@@ -9,6 +9,7 @@
 <body>
     <header>
         <h1>Ini adalah halaman pertama</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, illum placeat tempore aliquam fugit debitis! Vitae dolorum hic porro consectetur explicabo aperiam quisquam modi error eum accusamus, beatae illum corrupti.</p>
     </header>
 </body>
 </html>
